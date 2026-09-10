@@ -11,6 +11,32 @@
 
 *[中文说明请点这里 →](README.md)*
 
+---
+
+> [!IMPORTANT]
+> ## ⚠️ Read this before anything else
+>
+> **MacDroid must already be installed on your Mac — and it has to be the Pro version.**
+>
+> Kindles released from 2024 onward (Paperwhite 12th gen, Colorsoft, Scribe, …) speak **MTP**
+> over USB, which macOS does not support natively. Finder simply never sees the device, so no
+> transfer tool can work without a helper. MacDroid is what mounts your Kindle as a normal
+> folder — **it is a hard prerequisite, not optional.**
+>
+> On top of that, the free tier only supports **device → Mac** export. Writing to the Kindle
+> is a Pro feature:
+>
+> | MacDroid tier | Can you use this tool? |
+> |---|---|
+> | Free | ❌ reading only — the write step will fail |
+> | **Pro** | ✅ works |
+>
+> This tool does not inspect your MacDroid version or licence, but **without Pro the write step
+> will always fail**. Official download: <https://www.macdroid.app/>
+>
+> Once installed, check three things: **a data cable (not a charge-only cable), a direct
+> connection with no hub, and the Kindle awake and unlocked on the home screen.**
+
 Sideloading books to a Kindle from a Mac is a minefield: Finder can't see the device at all,
 everything you copy over shows up with a blank cover, `mobi` files refuse to change fonts on
 the Kindle, and Calibre happily writes books into a folder the Kindle never reads.
