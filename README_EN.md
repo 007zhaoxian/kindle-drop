@@ -43,7 +43,7 @@ This little tool takes care of all of it.
 
 ## Install
 
-**Download:** grab `传到Kindle-v2.1.zip` from [Releases](../../releases), unzip, drag
+**Download:** grab `KindleDrop-v2.1.zip` from [Releases](../../releases), unzip, drag
 `传到Kindle.app` into `/Applications`.
 
 The app is ad-hoc signed (no paid Apple certificate), so Gatekeeper will complain the first time:

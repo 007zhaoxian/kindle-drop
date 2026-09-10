@@ -43,7 +43,7 @@ mobi 在 Kindle 上死活改不了字体、Calibre 还会把书塞到 Kindle 认
 
 ### 方式一：下载现成的
 
-到 [Releases](../../releases) 下载 `传到Kindle-v2.1.zip`，解压得到 `传到Kindle.app`，
+到 [Releases](../../releases) 下载 `KindleDrop-v2.1.zip`，解压得到 `传到Kindle.app`，
 拖进 `/Applications` 即可。
 
 因为没买苹果开发者证书（ad-hoc 签名），首次打开会被 Gatekeeper 拦一下：

@@ -98,7 +98,8 @@ echo
 
 # ---------- 可选：打包 / 安装 ----------
 if [ "$ZIP" = "1" ]; then
-    OUT="$DIST/${APP_NAME}-v${VERSION}.zip"
+    # 用 ASCII 名：GitHub Release 会把资产名里的非 ASCII 字符直接剥掉
+    OUT="$DIST/KindleDrop-v${VERSION}.zip"
     rm -f "$OUT"
     # --norsrc：不带 AppleDouble(._*) 冗余条目，包更干净
     ditto -c -k --norsrc --keepParent "$APP" "$OUT"
