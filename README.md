@@ -8,6 +8,31 @@
 
 *[English →](README_EN.md)*
 
+---
+
+> [!IMPORTANT]
+> ## ⚠️ 用之前先看这一条
+>
+> **必须先在 Mac 上装好 MacDroid，而且要能「写入设备」的 Pro 版。**
+>
+> 2024 年之后的 Kindle（Paperwhite 12 代、Colorsoft、Scribe 等）USB 走的是 **MTP** 协议，
+> macOS 原生不支持 —— Finder 里根本看不到 Kindle，任何传书工具都无从下手。
+> MacDroid 负责把 Kindle 挂载成普通文件夹，**它是硬前置，不是可选项**。
+>
+> 另外，官方免费版**只能 设备 → Mac 单向导出**，往 Kindle 里写书属于 Pro 功能：
+>
+> | MacDroid 版本 | 能否用本工具 |
+> |---|---|
+> | 免费版 | ❌ 读取可以，写入会失败 |
+> | **Pro 版** | ✅ 正常使用 |
+>
+> 本工具不去检查 MacDroid 的版本或授权状态，但**没有 Pro，就一定会在写入那一步失败**。
+> 官方下载：<https://www.macdroid.app/>
+>
+> 装完之后确认三件事：**用数据线（不是充电线）、直连不要过 hub、Kindle 亮屏解锁停在主界面**。
+
+---
+
 ![界面预览](docs/preview.png)
 
 Mac 上用数据线给 Kindle 传书，坑是真的多：Finder 根本看不到设备、传过去的书全都没有封面、
@@ -38,8 +63,8 @@ mobi 在 Kindle 上死活改不了字体、Calibre 还会把书塞到 Kindle 认
 | **Calibre** | 格式转换和元数据读写。默认找 `/Applications/calibre.app`，可用 `KINDLE_CALIBRE_DIR` 改 |
 | **Xcode Command Line Tools** | 自己编译时需要（提供 `swiftc` 和 `/usr/bin/python3`）。下载现成的 app 则不需要 |
 
-> MacDroid 是付费软件，官方说「Mac → 设备」写入需要 Pro。
-> 不确定你的版本够不够，拖一本试试就知道 —— 本工具不检查版本。
+> MacDroid **必须装，且必须是 Pro 版**（免费版只能设备 → Mac 导出，写不进去）。
+> 详见文首的前置条件说明 —— 本工具不检查版本，但没有 Pro 会在写入那一步失败。
 
 ---
 
