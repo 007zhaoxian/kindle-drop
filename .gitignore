@@ -1,0 +1,7 @@
+.DS_Store
+dist/
+*.zip
+*.iconset/
+__pycache__/
+*.pyc
+build/

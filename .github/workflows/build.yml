@@ -1,0 +1,29 @@
+name: build
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 编译并打包
+        run: bash build.sh --zip
+
+      - name: 校验产物
+        run: |
+          set -e
+          ls -la dist/
+          lipo -archs "dist/传到Kindle.app/Contents/MacOS/KindleDrop"
+          test -f "dist/传到Kindle.app/Contents/Resources/kindle_send.py"
+          test -f "dist/传到Kindle.app/Contents/Resources/AppIcon.icns"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 传到Kindle-app
+          path: dist/*.zip
