@@ -3,6 +3,10 @@
 > Drag a book onto the floating box. That's it — format conversion, cover repair and
 > transfer to your Kindle all happen automatically.
 
+[![Release](https://img.shields.io/github/v/release/007zhaoxian/kindle-drop?label=download&color=blue)](../../releases/latest)
+[![Build](https://img.shields.io/github/actions/workflow/status/007zhaoxian/kindle-drop/build.yml?label=build)](../../actions)
+[![License](https://img.shields.io/github/license/007zhaoxian/kindle-drop?label=license&color=green)](LICENSE)
+
 ![preview](docs/preview.png)
 
 *[中文说明请点这里 →](README.md)*

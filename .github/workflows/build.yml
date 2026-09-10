@@ -23,7 +23,7 @@ jobs:
           test -f "dist/传到Kindle.app/Contents/Resources/kindle_send.py"
           test -f "dist/传到Kindle.app/Contents/Resources/AppIcon.icns"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: 传到Kindle-app
           path: dist/*.zip

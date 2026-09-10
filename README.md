@@ -2,6 +2,10 @@
 
 > 拖一下就完事 —— 把电子书拖进屏幕上的悬浮方框，自动转格式、修封面、传进 Kindle。
 
+[![Release](https://img.shields.io/github/v/release/007zhaoxian/kindle-drop?label=%E4%B8%8B%E8%BD%BD&color=blue)](../../releases/latest)
+[![Build](https://img.shields.io/github/actions/workflow/status/007zhaoxian/kindle-drop/build.yml?label=build)](../../actions)
+[![License](https://img.shields.io/github/license/007zhaoxian/kindle-drop?label=license&color=green)](LICENSE)
+
 *[English →](README_EN.md)*
 
 ![界面预览](docs/preview.png)
