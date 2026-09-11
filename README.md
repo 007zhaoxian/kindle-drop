@@ -1,6 +1,6 @@
 # 从mac传电子书到Kindle（用数据线）
 
-> 把电子书从mac电脑传到kindle的工具（提前准备好macdroid，正版破解版都行）。实现的功能：1自动把各种格式的书转换成kindle可以识别的格式，2数据线连接电脑后，拖动电子书到app，可以实现无感传书。
+> 把电子书从mac电脑传到kindle的工具（提前准备好macdroid，正版破解版都行）。实现的功能：1自动把各种格式的书转换成kindle可以识别的格式，2数据线连接电脑后，拖动电子书到app，可以实现无感传书。3自动修复传入的书没有封面的问题。
 
 [![Release](https://img.shields.io/github/v/release/007zhaoxian/kindle-drop?label=%E4%B8%8B%E8%BD%BD&color=blue)](../../releases/latest)
 [![Build](https://img.shields.io/github/actions/workflow/status/007zhaoxian/kindle-drop/build.yml?label=build)](../../actions)
